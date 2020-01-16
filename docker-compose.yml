@@ -1,0 +1,12 @@
+version: '3'
+services:
+  caddy:
+    image: abiosoft/caddy:latest
+    volumes:
+    - ./caddy/Caddyfile:/etc/Caddyfile
+    # - ./caddy/certificates:/root/.caddy
+    - ./caddy/index.html:/www/localhost/index.html
+    ports:
+      - "2015:2015"
+      - "80:80"
+      - "443:443"

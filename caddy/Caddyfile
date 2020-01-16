@@ -1,0 +1,5 @@
+itadm.akmnn.de:443 {
+    root /www/itadm.akmnn.de
+    gzip
+    log ../access.log
+}
