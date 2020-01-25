@@ -1,5 +1,12 @@
 itadm.akmnn.de:443 {
-    root /www/itadm.akmnn.de
+    root /www/itadm
     gzip
     log ../access.log
+}
+
+youtrack.akmnn.de:443 {
+  proxy / youtrack:3000 {
+      websocket
+      transparent
+  }
 }

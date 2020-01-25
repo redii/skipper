@@ -1,0 +1,6 @@
+caddy/certificates/*
+caddy/sites/*
+youtrack/backups/*
+youtrack/conf/*
+youtrack/data/*
+youtrack/logs/*

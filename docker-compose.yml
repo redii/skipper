@@ -2,11 +2,19 @@ version: '3'
 services:
   caddy:
     image: abiosoft/caddy:latest
+    ports:
+      - '80:80'
+      - '443:443'
     volumes:
     - ./caddy/Caddyfile:/etc/Caddyfile
-    # - ./caddy/certificates:/root/.caddy
-    - ./caddy/index.html:/www/localhost/index.html
+    - ./caddy/certificates:/root/.caddy
+    - ./caddy/sites:/www/
+  youtrack:
+    image: jetbrains/youtrack:2019.3.64090
     ports:
-      - "2015:2015"
-      - "80:80"
-      - "443:443"
+      - '3000:3000'
+    volumes:
+      - ./youtrack/data:/opt/youtrack/data
+      - ./youtrack/conf:/opt/youtrack/conf
+      - ./youtrack/logs:/opt/youtrack/logs
+      - ./youtrack/backups:/opt/youtrack/backups
