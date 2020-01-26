@@ -2,6 +2,10 @@ itadm.akmnn.de:443 {
     root /www/itadm
     gzip
     log ../access.log
+    rewrite / {
+      if {path} not_match ^/
+      to {path} /
+    }
 }
 
 youtrack.akmnn.de:443 {

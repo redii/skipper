@@ -12,6 +12,7 @@ then
   sudo chown -R 13001:13001 youtrack/data
   sudo chown -R 13001:13001 youtrack/logs
   sudo chown -R 13001:13001 youtrack/backups
+  echo 'YouTrack file structure created.'
 else
   echo 'YouTrack file structure exists.'
 fi
