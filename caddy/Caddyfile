@@ -5,7 +5,7 @@ itadm.akmnn.de:443 {
 }
 
 youtrack.akmnn.de:443 {
-  proxy / youtrack:3000 {
+  proxy / youtrack:8080 {
       websocket
       transparent
   }

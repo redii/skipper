@@ -12,7 +12,7 @@ services:
   youtrack:
     image: jetbrains/youtrack:2019.3.64090
     ports:
-      - '3000:3000'
+      - '8080'
     volumes:
       - ./youtrack/data:/opt/youtrack/data
       - ./youtrack/conf:/opt/youtrack/conf
