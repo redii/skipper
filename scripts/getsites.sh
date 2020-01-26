@@ -1,4 +1,4 @@
-#!/bin/#!/usr/bin/env bash
+#!/usr/bin/env bash
 # Helper script to automatically download builds from their repos
 
 # My Portfolio Webapplication - https://github.com/redii/home
@@ -13,3 +13,4 @@ curl -s https://api.github.com/repos/redii/itadm/releases/latest \
 unzip itadm.zip
 mv -f build/ caddy/sites/itadm/
 rm itadm.zip
+echo 'itadm installed.'
