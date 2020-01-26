@@ -1,6 +1,16 @@
 #!/usr/bin/env bash
 # Helper script to automatically download builds from their repos
 
+if [[ ! -d caddy/sites/ ]]
+then
+  mkdir caddy/sites/
+fi
+
+if [[ ! -d caddy/certificates/ ]]
+then
+  mkdir caddy/certificates/
+fi
+
 # My Portfolio Webapplication - https://github.com/redii/home
 # todo...
 
