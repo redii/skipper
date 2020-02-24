@@ -4,11 +4,7 @@
 A repository which contains the docker-compose configuration for my personal vps, which allows me to quickly reinstall the services wherever I need them.
 
 ## 🔧 Install
-<<<<<<< HEAD
 Run `git clone https://github.com/redii/skipper` in order to copy this repository on your local machine or download the files directly from the [repo page](https://github.com/redii/skipper).
-=======
-Run `git clone https://github.com/redii/skipper.git` in order to copy this repository on your local machine or download the files directly from the [repo page](https://github.com/redii/skipper).
->>>>>>> master
 
 ## ⚙ Setup
 You will need [Docker](https://www.docker.com/) and [docker-compose](https://docs.docker.com/compose/) installed on your system in order to setup this configuration.
