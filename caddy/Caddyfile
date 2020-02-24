@@ -1,7 +1,17 @@
 itadm.akmnn.de:443 {
     root /www/itadm
     gzip
-    log ../access.log
+    log ../access_itadm.log
+    rewrite / {
+      if {path} not_match ^/
+      to {path} /
+    }
+}
+
+shaconda.akmnn.de:443 {
+    root /www/shaconda
+    gzip
+    log ../access_shaconda.log
     rewrite / {
       if {path} not_match ^/
       to {path} /

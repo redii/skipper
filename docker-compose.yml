@@ -5,6 +5,7 @@ services:
     ports:
       - '80:80'
       - '443:443'
+      - '8080:8080'
     volumes:
     - ./caddy/Caddyfile:/etc/Caddyfile
     - ./caddy/certificates:/root/.caddy
@@ -18,3 +19,16 @@ services:
       - ./youtrack/conf:/opt/youtrack/conf
       - ./youtrack/logs:/opt/youtrack/logs
       - ./youtrack/backups:/opt/youtrack/backups
+  minecraft:
+    image: itzg/minecraft-server
+    ports:
+      - '25565:25565'
+    volumes:
+      - ./mc:/data
+    environment:
+      EULA: 'TRUE'
+      CONSOLE: 'true'
+      ENABLE_RCON: 'true'
+      RCON_PASSWORD: ''
+      RCON_PORT: 28016
+    restart: always
