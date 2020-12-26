@@ -1,26 +1,23 @@
-itadm.akmnn.de:443 {
-    root /www/itadm
-    gzip
-    log ../access_itadm.log
-    rewrite / {
-      if {path} not_match ^/
-      to {path} /
-    }
+smrt.menu {
+    root smrt
+    try_files {path} {file} /index.html
+    file_server
 }
 
-shaconda.akmnn.de:443 {
-    root /www/shaconda
-    gzip
-    log ../access_shaconda.log
-    rewrite / {
-      if {path} not_match ^/
-      to {path} /
-    }
+www.smrt.menu {
+    redir https://smrt.menu{uri}
 }
 
-youtrack.akmnn.de:443 {
-  proxy / youtrack:8080 {
-      websocket
-      transparent
-  }
+partner.smrt.menu {
+    root smrt-partner
+    file_server
+}
+
+akmnn.de {
+    root hugo
+    file_server
+}
+
+itadm.akmnn.de {
+    redir https://akmnn.de/itadm
 }

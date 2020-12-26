@@ -1,34 +1,22 @@
 version: '3'
 services:
   caddy:
-    image: abiosoft/caddy:latest
+    image: caddy:2.1.1-alpine
     ports:
       - '80:80'
       - '443:443'
-      - '8080:8080'
     volumes:
-    - ./caddy/Caddyfile:/etc/Caddyfile
-    - ./caddy/certificates:/root/.caddy
-    - ./caddy/sites:/www/
-  youtrack:
-    image: jetbrains/youtrack:2019.3.64090
-    ports:
-      - '8080'
+    - ./caddy/Caddyfile:/etc/caddy/Caddyfile
+    - ./caddy/sites:/srv
+    - ./caddy/config:/config
+    - ./caddy/data:/data
+  hugo:
+    image: jojomi/hugo:latest
     volumes:
-      - ./youtrack/data:/opt/youtrack/data
-      - ./youtrack/conf:/opt/youtrack/conf
-      - ./youtrack/logs:/opt/youtrack/logs
-      - ./youtrack/backups:/opt/youtrack/backups
-  minecraft:
-    image: itzg/minecraft-server
-    ports:
-      - '25565:25565'
-    volumes:
-      - ./mc:/data
+      - ./hugo:/src
+      - ./caddy/sites/hugo:/output
     environment:
-      EULA: 'TRUE'
-      CONSOLE: 'true'
-      ENABLE_RCON: 'true'
-      RCON_PASSWORD: ''
-      RCON_PORT: 28016
+      - HUGO_REFRESH_TIME=300
+      - HUGO_THEME=hugo-PaperMod
+      - HUGO_BASEURL=https://akmnn.de/
     restart: always

@@ -1,0 +1,6 @@
+baseURL = "https://akmnn.de/"
+languageCode = "en-us"
+title = "Henry Akmann"
+
+googleAnalytics = "G-XXZ0FQVDX0"
+enableRobotsTXT = true

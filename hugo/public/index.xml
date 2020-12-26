@@ -1,0 +1,44 @@
+<?xml version="1.0" encoding="utf-8" standalone="yes"?>
+<rss version="2.0" xmlns:atom="http://www.w3.org/2005/Atom">
+  <channel>
+    <title>Henry Akmann</title>
+    <link>https://akmnn.de/</link>
+    <description>Recent content on Henry Akmann</description>
+    <generator>Hugo -- gohugo.io</generator>
+    <language>en-us</language>
+    <lastBuildDate>Sun, 20 Dec 2020 20:40:08 +0000</lastBuildDate><atom:link href="https://akmnn.de/index.xml" rel="self" type="application/rss+xml" />
+    <item>
+      <title>Fileserver</title>
+      <link>https://akmnn.de/itadm/server/ftp/</link>
+      <pubDate>Sun, 20 Dec 2020 20:40:08 +0000</pubDate>
+      
+      <guid>https://akmnn.de/itadm/server/ftp/</guid>
+      <description>vsftpd Installation und Konfiguration unter Ubuntu 20.04 LTS
+🚀 Ziel der Aufgabe Die Aufgabe besteht darin einen FTP-Server auf Ihrem System zu installieren und anschließend zu konfigurieren. Am Ende sollten Sie per FTP auf das Filesystem Ihres Servers zugreifen können, um Dateien und Verzeichnisse verwalten zu können.
+1. Installieren Sie das &amp;ldquo;vsftpd&amp;rdquo; Paket auf Ihrem System Um das Paket auf ihrem System zu installieren nutzen sie das vorhandene Paketverwaltungssystem. Unter Debian/Ubuntu können Sie hierfür APT benutzen.</description>
+    </item>
+    
+    <item>
+      <title>Nameserver</title>
+      <link>https://akmnn.de/itadm/server/dns/</link>
+      <pubDate>Sun, 20 Dec 2020 19:50:56 +0000</pubDate>
+      
+      <guid>https://akmnn.de/itadm/server/dns/</guid>
+      <description>Bind9 Installation und Konfiguration unter Ubuntu 20.04 LTS
+🚀 Ziel der Aufgabe Die Aufgabe besteht darin einen Bind Nameserver auf Ihrem System zu installieren und anschließend zu konfigurieren. Das grobe Ziel ist dass Ihr Server für eine Domain zuständig ist und die DNS-Einträge für diese verwaltet.
+Beispielsweise können Sie die Domain itadm.de für Ihren Server hinterlegen und anschließend DNS-Einträge wie www.itadm.de für diese definieren. Am Ende sollen Sie eine manuelle Namensauflösung Ihrer konfigurierten Domain gegen den Server vornehmen und eine IP-Adresse zurück erhalten.</description>
+    </item>
+    
+    <item>
+      <title>Webserver</title>
+      <link>https://akmnn.de/itadm/server/web/</link>
+      <pubDate>Wed, 16 Dec 2020 16:32:22 +0000</pubDate>
+      
+      <guid>https://akmnn.de/itadm/server/web/</guid>
+      <description>Apache2 Installation und Konfiguration unter Ubuntu 20.04 LTS
+🚀 Ziel der Aufgabe Die Aufgabe besteht darin einen Apache Webserver auf Ihrem System zu installieren und anschließend zu konfigurieren. Das grobe Ziel ist, dass Sie neben der Apache-Default Seite des Servers eine zweite Webseite zeitgleich betreiben.
+Um eine zweite Webseite zeitgleich zu betreiben, müssen Sie zunächst einen weiteren Port z.B. 3000 für den Server konfigurieren. Dadurch können Sie anschließend eine Webseite über den Port 80 und eine andere über den Port 3000 durch den selber Serverhost betreiben.</description>
+    </item>
+    
+  </channel>
+</rss>
