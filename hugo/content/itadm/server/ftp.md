@@ -4,13 +4,15 @@ date: 2020-12-20T19:50:56Z
 draft: false
 ---
 
-# vsftpd Installation und Konfiguration
+# Installation und Konfiguration - vsftpd
 
 unter Ubuntu 20.04 LTS
 
 ## 🚀 Ziel der Aufgabe
 
 Die Aufgabe besteht darin einen FTP-Server auf Ihrem System zu installieren und anschließend zu konfigurieren. Am Ende sollten Sie per FTP auf das Filesystem Ihres Servers zugreifen können, um Dateien und Verzeichnisse verwalten zu können.
+
+Außerdem sollten Sie auch das **SFTP** Protokoll nutzen, um eine einfache und sichere Alternative zur Datenübertragung kennenzulernen.
 
 ## 1. Installieren Sie das "vsftpd" Paket auf Ihrem System
 
@@ -56,6 +58,7 @@ Starten Sie den Server anschließend neu, damit die Änderungen übernommen werd
 In dieser Datei befindet sich eine Liste mit Usern des Systems, welche für den Zugriff per FTP ausgeschlossen sind. Damit der Root-User sich nun also verbinden kann, müssen Sie Ihn aus dieser Liste entfernen.
 
 Neustart des Servers: `service vsftpd restart`
+
 Statusmeldung des Diensts: `service vsftpd status`
 {{< /collapsible >}}
 

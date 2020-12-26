@@ -1,0 +1,21 @@
+<!DOCTYPE html>
+<html lang="{{ .Site.Language }}" dir="{{ .Language.LanguageDirection | default "auto" }}">
+
+<head>
+    {{- partial "head.html" . }}
+</head>
+
+<body class="list dark">
+    <header>
+        {{- partial "header.html" . }}
+    </header>
+    <main class="main">
+        <header class="page-header">
+            <h1>{{ .Title }}</h1>
+        </header>
+        <div class="post-content">
+            <p>{{ .Content }}</p>
+        </div>
+    </main>
+    {{- partialCached "footer.html" . .Type }}
+</body>

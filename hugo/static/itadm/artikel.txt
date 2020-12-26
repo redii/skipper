@@ -1,0 +1,22 @@
+# C (Programmiersprache)
+
+C ist eine imperative und prozedurale Programmiersprache, die der Informatiker Dennis Ritchie in den frühen 1970er Jahren an den Bell Laboratories entwickelte. 
+Seitdem ist sie eine der am weitesten verbreiteten Programmiersprachen.
+
+Die Anwendungsbereiche von C sind sehr verschieden. Sie wird zur System- und Anwendungsprogrammierung eingesetzt. 
+Die grundlegenden Programme aller Unix-Systeme und die Systemkernel vieler Betriebssysteme sind in C programmiert. 
+Zahlreiche Sprachen, wie C++, Objective-C, C#, D, Java, JavaScript, LSL, PHP, Vala oder Perl, orientieren sich an der Syntax und anderen Eigenschaften von C.
+
+# Geschichte
+
+## Entstehung
+
+C wurde 1969–1973 von Dennis Ritchie[2] in den Bell Laboratories für die Programmierung des damals neuen Unix-Betriebssystems entwickelt. 
+Er stützte sich dabei auf die Programmiersprache B, die Ken Thompson und Dennis Ritchie in den Jahren 1969/70 geschrieben hatten – der Name C entstand als Weiterentwicklung von B. B wiederum 
+geht auf die von Martin Richards Mitte der 1960er-Jahre entwickelte Programmiersprache BCPL zurück.[3] Ritchie schrieb auch den ersten Compiler für C. 
+1973 war die Sprache so weit ausgereift, dass man nun den Unix-Kernel für die PDP-11 neu in C schreiben konnte.
+
+## Weitere Entwicklung
+
+K&R C erweiterte die Sprache um neue Schlüsselwörter wie long oder unsigned und führte die von Mike Lesk 
+entwickelte I/O-Standardbibliothek und auf Empfehlung von Alan Snyder den Präprozessor ein.

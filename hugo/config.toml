@@ -1,6 +1,35 @@
+## Basic Configuration
 baseURL = "https://akmnn.de/"
 languageCode = "en-us"
+theme = "hugo-PaperMod"
+
+author = "Henry Akmann"
 title = "Henry Akmann"
 
+## Hugo Built-in Features
 googleAnalytics = "G-XXZ0FQVDX0"
 enableRobotsTXT = true
+
+## Params
+[params]
+favicon = "/favicon.ico"
+
+## Social Accounts
+[params.social]
+github = "redii"
+hackernews = "akmann"
+email = "akmann.henry@gmail.com"
+
+## Extras
+[params.extra]
+poweredby = true
+highlightjs = true
+socialmarkup = false
+displayrssicon = false
+toc = true
+
+## Markup
+[markup]
+  [markup.goldmark]
+    [markup.goldmark.renderer]
+      unsafe = true

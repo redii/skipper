@@ -16,6 +16,7 @@ services:
       - ./hugo:/src
       - ./caddy/sites/hugo:/output
     environment:
+      - HUGO_ENV=production
       - HUGO_REFRESH_TIME=300
       - HUGO_THEME=hugo-PaperMod
       - HUGO_BASEURL=https://akmnn.de/

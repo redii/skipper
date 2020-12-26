@@ -4,7 +4,7 @@ date: 2020-12-15T16:32:22Z
 draft: false
 ---
 
-# Bind9 Installation und Konfiguration
+# Installation und Konfiguration - bind9
 
 unter Ubuntu 20.04 LTS
 
