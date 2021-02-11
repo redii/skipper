@@ -8,12 +8,12 @@ draft: false
 | ------------- | ------------- |
 | `echo <Text>` | Gibt einen Text im Terminalfenster aus. |
 | `<VARIABLE_NAME>=<WERT>` | Setzt einen Wert für eine Umgebungsvariable. |
-| `alias <Name>=<Kommando>` | Erstellt einen alternativen Namen für einen bestimmten Befehl. |
 | `printenv` | Gibt alle definierten Umgebungsvariablen aus. |
+| `alias <Name>=<Kommando>` | Erstellt einen alternativen Namen für einen bestimmten Befehl. |
 
 ## Aufgabe 1
 
-Bewegen Sie sich durch die Ordnerstruktur und lassen Sie sich wiederholt den Inhalt der **PWD** Umgebungsvariable ausgeben. Was beinhaltet Sie?
+Erstellen Sie eine eigene Umgebungsvariable mit einem beliebigen Wert den Sie selbst definieren können. Lassen Sie sich diese Variable anschließend im Terminal ausgeben.
 
 ## Aufgabe 2
 
@@ -30,15 +30,11 @@ Recherchieren Sie wie sie den User, die Uhrzeit und den Pfad im Prompt darstelle
 
 ## Aufgabe 4
 
-Vereinfachen Sie sich den Aufruf wiederkehrender Kommandos in dem Sie ein kurzes Alias für diese definieren. Wie wäre es mit dem `ls -la` Befehl?
-
-## Aufgabe 5
-
 Beenden Sie mit dem `exit` Kommando die aktuelle Shell, um sich auszuloggen. Versuchen Sie nach erneuten Anmelden an der Maschine die in Aufgabe 4 definierte Umgebungsvariable auszugeben bzw. zu benutzen.
 
 Prüfen Sie die bestehenden Umgebungsvariablen mit Hilfe des `printenv` Kommandos.
 
-## Aufgabe 6
+## Aufgabe 5
 
 Recherchieren Sie den Zweck und die Funktionsweise der `.profile` Datei, welche sich in Ihrem Homeverzeichnis befindet.
 
