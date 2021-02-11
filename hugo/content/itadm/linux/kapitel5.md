@@ -7,6 +7,7 @@ draft: false
 | Kommando      | Funktion      |
 | ------------- | ------------- |
 | `cat <Pfad>` | Gibt den Inhalt einer Datei aus. |
+| `touch <Dateiname>` | Erstellt eine neue Datei. |
 | `vim <Pfad>` | Öffnet eine Datei im vim Editor. |
 | `nano <Pfad>` | Öffnet eine Datei im nano Editor. |
 
