@@ -8,7 +8,6 @@ draft: false
 | ------------- | ------------- | ----- |
 | `echo <Text>` | Gibt einen Text standardmäßig im Terminalfenster aus. | |
 | `cat <Pfad>` | Gibt den Inhalt einer Datei im Terminalfenster aus. | |
-| `grep <Suchmuster>` | Sucht nach dem angegebenen Muster in einer Eingabe. | `-i` Case insensitive |
 | `sort` | Sortiert eine Eingabe. | `-n` Alphanumerische Sortierung |
 
 ## Aufgabe 1
