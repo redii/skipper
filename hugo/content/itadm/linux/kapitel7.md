@@ -7,6 +7,7 @@ draft: false
 | Kommando      | Funktion      | Flags |
 | ------------- | ------------- | ----- |
 | `cat <Pfad>` | Gibt den Inhalt einer Datei im Terminalfenster aus. | |
+| `grep <Suchmuster>` | Sucht nach dem angegebenen Muster in einer Eingabe. | `-i` Case insensitive |
 | `cut` | Sucht nach dem angegebenen Muster in einer Eingabe. | `-i` Case insensitive |
 | `sort` | Unterteil eine Eingabe in Spalten anhand eines Trennzeichens. | `-d<Zeichen>` Definiert das Trennzeichen <br>`-f<Zahl>` Definiert die Ausgabespalte |
 
