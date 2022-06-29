@@ -21,3 +21,21 @@ akmnn.de {
 itadm.akmnn.de {
     redir https://akmnn.de/itadm
 }
+
+jkfitnessandmore.de {
+    root jkfit
+    file_server
+}
+
+www.jkfitnessandmore.de {
+    redir https://jkfitnessandmore.de{uri}
+}
+
+eatdrinkandchill.de {
+    root eatdrinkchill
+    file_server
+}
+
+www.eatdrinkandchill.de {
+    redir https://eatdrinkandchill.de{uri}
+}

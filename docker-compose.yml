@@ -1,7 +1,7 @@
 version: '3'
 services:
   caddy:
-    image: caddy:2.1.1-alpine
+    image: caddy:2.3.0-rc.1-alpine
     ports:
       - '80:80'
       - '443:443'
@@ -11,7 +11,7 @@ services:
     - ./caddy/config:/config
     - ./caddy/data:/data
   hugo:
-    image: jojomi/hugo:latest
+    image: jojomi/hugo:0.76
     volumes:
       - ./hugo:/src
       - ./caddy/sites/hugo:/output
@@ -21,3 +21,12 @@ services:
       - HUGO_THEME=hugo-PaperMod
       - HUGO_BASEURL=https://akmnn.de/
     restart: always
+  minecraft:
+    image: itzg/minecraft-server
+    ports:
+      - 25565:25565
+    environment:
+      EULA: "TRUE"
+      MAX_MEMORY: 2G
+    volumes:
+      - ./mcdata:/data

@@ -90,3 +90,9 @@ Um einen neuen Systemuser anzulegen nutzen Sie das folgende Kommando.
 Was ist Vorraussetzung für die Nutzung von SFTP? Bemerken Sie Unterschiede in der Nutzung?
 
 ![WinSCP Anmeldung per SFTP](/itadm/winscp2.png)
+
+## 7. Webseite mit GUI anpassen
+Nachdem Sie sich per FTP oder SFTP auf den Server verbunden haben, können Sie auch die Dateien aus der vorherigen Aufgaben nun mit einem grafischen Texteditor einsehen. Navigieren Sie dafür in einen der Ordner, machen Sie einen Rechtsklick auf die gewünschte Datei und drücken anschließend auf `Editieren > Editieren mit...`.
+
+Sie können bspw. die index.html Datei der neu erstellten Webseite unter `/var/www/webseite/index.html` anpassen und nach dem Speichern der Datei, die Änderungen unmittelbar auf Ihrer Webseite ansehen.
+

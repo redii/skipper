@@ -18,6 +18,7 @@ draft: false
 In der Kommandozeile wird Ihnen stets dargestellt, in welchem Arbeitsverzeichnis (Ordner) Sie sich gerade befinden. 
 
 Geben Sie zu Beginn die Kommandos `cd` und `ls` wie folgt ein:
+
 ```bash
 root@192.0.2.42:~$ cd /
 root@192.0.2.42:/$ ls -l

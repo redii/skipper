@@ -59,7 +59,7 @@ Als Vorlage für den neuen Virtual Host können Sie die `sites-available/000-def
 
   Öffnen Sie die kopierte Datei mit dem nano Kommando und nehmen Sie die folgenden Anpassungen vor.
 
-  `VirtualHost *:8080`
+  `VirtualHost *:3000`
 
   `DocumentRoot /var/www/webseite`
 {{< /collapsible >}}
